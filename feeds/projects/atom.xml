@@ -1,5 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>a10g - projects</title><link href="https://a10g.com/" rel="alternate"></link><link href="https://a10g.com/feeds/projects/atom.xml" rel="self"></link><id>https://a10g.com/</id><updated>2019-09-17T00:00:00-04:00</updated><subtitle></subtitle><entry><title>qsrv - A Fortune Server</title><link href="https://a10g.com/content/qsrv.html" rel="alternate"></link><published>2019-09-17T00:00:00-04:00</published><updated>2019-09-17T00:00:00-04:00</updated><author><name>Andrew Boring</name></author><id>tag:a10g.com,2019-09-17:/content/qsrv.html</id><content type="html">&lt;p&gt;qsrv is a simple Flask application serving fortunes via simple REST API.&lt;br&gt;
-It reads from a directory of BSD-style &lt;a href="https://en.wikipedia.org/wiki/Fortune_(Unix)#Fortune_files"&gt;fortune files&lt;/a&gt;, without the strfile(8) requirement.&lt;/p&gt;
-&lt;p&gt;An implementation is deployed at http://qsrv.a10g.com/.&lt;/p&gt;
-&lt;p&gt;Docs are available at&lt;/p&gt;</content></entry></feed>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>a10g - projects</title><link href="https://a10g.com/" rel="alternate"></link><link href="https://a10g.com/feeds/projects/atom.xml" rel="self"></link><id>https://a10g.com/</id><updated>2019-09-17T00:00:00-04:00</updated><subtitle></subtitle><entry><title>Fortune Web Service</title><link href="https://a10g.com/content/fortune.html" rel="alternate"></link><published>2019-09-17T00:00:00-04:00</published><updated>2019-09-17T00:00:00-04:00</updated><author><name>Andrew Boring</name></author><id>tag:a10g.com,2019-09-17:/content/fortune.html</id><summary type="html">&lt;p&gt;&lt;a href="http://fortune.a10g.com"&gt;Fortune&lt;/a&gt; is a public web service serving fortunes via simple REST API.  &lt;/p&gt;
+&lt;p&gt;The public web service is available at http://fortune.a10g.com.&lt;br&gt;
+Source code is available at https://github.com/a10g/qsrv.&lt;/p&gt;
+&lt;h2&gt;Project Summary&lt;/h2&gt;
+&lt;p&gt;Fortune is a web service in the tradition of the Unix fortune(6) program. It …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;a href="http://fortune.a10g.com"&gt;Fortune&lt;/a&gt; is a public web service serving fortunes via simple REST API.  &lt;/p&gt;
+&lt;p&gt;The public web service is available at http://fortune.a10g.com.&lt;br&gt;
+Source code is available at https://github.com/a10g/qsrv.&lt;/p&gt;
+&lt;h2&gt;Project Summary&lt;/h2&gt;
+&lt;p&gt;Fortune is a web service in the tradition of the Unix fortune(6) program. It serves random fortunes assembled from traditional Unix/Linux fortune files and new collections assembled by the project. Fortune aims to be the definitive source for quotes, fortunes, one-liners, and tips-n-tricks on-demand.&lt;/p&gt;
+&lt;h2&gt;Project Details&lt;/h2&gt;
+&lt;p&gt;The original objective behind this project was tos advance a personal effort by the project's maintainer to popularize a collection of quotes by The Mighty Monarch, a character from the Adult Swim animated series, The Venture Bros.&lt;/p&gt;
+&lt;p&gt;This collection of quotes was organized into the &lt;a href="https://en.wikipedia.org/wiki/Fortune_(Unix)#Fortune_files"&gt;fortune file format&lt;/a&gt;, ultimately intended to be included into various OS distributions that provide the program and a collection of fortune files.&lt;/p&gt;
+&lt;p&gt;The effort was misguided: no one uses fortune(6) anymore.&lt;/p&gt;
+&lt;p&gt;The FreeBSD project &lt;a href="https://svnweb.freebsd.org/base?view=revision&amp;amp;revision=325828"&gt;removed their fortune files&lt;/a&gt; in 2017 (though it has since moved to Ports), and macOS no longer distributes fortune with their BSD userland either. Most Linux distributions don't install it by default, and Windows never had it to begin with. People these days prefer laptops over workstations, mobile devices over laptops, and the whole notion of a "login" has changed so radically that there is simply no room for a fortune program in today's modern computing environment.&lt;/p&gt;
+&lt;p&gt;Or is there?&lt;/p&gt;
+&lt;p&gt;In this larger, more &lt;em&gt;complex&lt;/em&gt; computing world, web services power web applications that power social media sites and personal blogs and line-of-business applications and all sorts of stuff. This is becoming infrastructure. A &lt;em&gt;logical&lt;/em&gt; (eg, not physical) infrastructure, but infrastructure nonetheless.&lt;/p&gt;
+&lt;p&gt;Unix evolves. We may not have the Unix Version 7 anymore, but we have macOS; we have the BSDs keeping the Berkeley legacy alive; and we have more Linux distributions than are digits in Pi. All of these have some cultural legacy, but still need to change with the times and the need. Those that have no evolutionary path, cease to exist.&lt;/p&gt;
+&lt;p&gt;This web service is an attempt to provide that evolutionary path to a simple Unix utility whose contents brought simple joy to so many people through the years. Perhaps it can continue to provide it for years to come.&lt;/p&gt;
+&lt;h2&gt;Terms:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;This web service is free to use.&lt;/li&gt;
+&lt;li&gt;Currently, there are no rate limits or other restrictions. As this service gains usage, reasonable  restrictions may be put in place to prevent service issues. Any application developers looking to use this service in their application are absolutely welcome to, with the notice that no service level is being provided. As-is.&lt;/li&gt;
+&lt;li&gt;Any businesses, organizations, or app developers requiring a service level agreement are welcome to contact me for options.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Usage:&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;/api
+Returns API information and usage.
+(not yet implemented)
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;/api/fortune/list
+List all fortune files.
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;/api/fortune/random
+Returns a random fortune from all available fortune file.
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;/api/fortune/{database}
+Returns a fortune from the selected fortune file.
+&lt;/pre&gt;&lt;/div&gt;</content></entry></feed>
