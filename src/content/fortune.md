@@ -1,4 +1,4 @@
-Title: Fortune Web Service
+Title: Fortune
 Author: Andrew Boring
 Date: 2019-09-17
 Slug: fortune
@@ -7,8 +7,8 @@ Category: projects
 [Fortune](http://fortune.a10g.com) is a public web service serving fortunes via simple REST API.  
 
 
-The web service is available at http://fortune.a10g.com.  
-Source code is available at https://github.com/a10g/qsrv.
+The web service is available at <http://fortune.a10g.com>.  
+Source code for the server component is available at <https://github.com/a10g/qsrv>.
 
 ## Project Summary
 Fortune is a web service in the tradition of the Unix fortune(6) program. It serves random fortunes assembled from traditional Unix/Linux fortune files and new collections assembled by the project. Fortune aims to be the definitive source for quotes, fortunes, one-liners, and tips-n-tricks on-demand.
