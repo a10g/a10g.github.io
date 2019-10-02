@@ -15,7 +15,7 @@ Fortune is a web service in the tradition of the Unix fortune(6) program. It ser
 
 
 ## Project Details
-The original objective behind this project was tos advance a personal effort by the project's maintainer to popularize a collection of quotes by The Mighty Monarch, a character from the Adult Swim animated series, The Venture Bros.
+The original objective behind this project was to advance a personal effort by the project's maintainer to popularize a collection of quotes by The Mighty Monarch, a character from the Adult Swim animated series, The Venture Bros.
 
 This collection of quotes was organized into the [fortune file format](https://en.wikipedia.org/wiki/Fortune_(Unix)#Fortune_files), ultimately intended to be included into various OS distributions that provide the program and a collection of fortune files.
 
