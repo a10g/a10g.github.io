@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>a10g - projects</title><link href="https://a10g.com/" rel="alternate"></link><link href="https://a10g.com/feeds/projects/atom.xml" rel="self"></link><id>https://a10g.com/</id><updated>2019-09-17T00:00:00-04:00</updated><subtitle></subtitle><entry><title>Fortune Web Service</title><link href="https://a10g.com/content/fortune.html" rel="alternate"></link><published>2019-09-17T00:00:00-04:00</published><updated>2019-09-17T00:00:00-04:00</updated><author><name>Andrew Boring</name></author><id>tag:a10g.com,2019-09-17:/content/fortune.html</id><summary type="html">&lt;p&gt;&lt;a href="http://fortune.a10g.com"&gt;Fortune&lt;/a&gt; is a public web service serving fortunes via simple REST API.  &lt;/p&gt;
-&lt;p&gt;The public web service is available at http://fortune.a10g.com.&lt;br&gt;
-Source code is available at https://github.com/a10g/qsrv.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>a10g - projects</title><link href="https://a10g.com/" rel="alternate"></link><link href="https://a10g.com/feeds/projects/atom.xml" rel="self"></link><id>https://a10g.com/</id><updated>2019-09-17T00:00:00-04:00</updated><subtitle></subtitle><entry><title>Fortune</title><link href="https://a10g.com/content/fortune.html" rel="alternate"></link><published>2019-09-17T00:00:00-04:00</published><updated>2019-09-17T00:00:00-04:00</updated><author><name>Andrew Boring</name></author><id>tag:a10g.com,2019-09-17:/content/fortune.html</id><summary type="html">&lt;p&gt;&lt;a href="http://fortune.a10g.com"&gt;Fortune&lt;/a&gt; is a public web service serving fortunes via simple REST API.  &lt;/p&gt;
+&lt;p&gt;The web service is available at &lt;a href="http://fortune.a10g.com"&gt;http://fortune.a10g.com&lt;/a&gt;.&lt;br&gt;
+Source code for the server component is available at &lt;a href="https://github.com/a10g/qsrv"&gt;https://github.com/a10g/qsrv&lt;/a&gt;.&lt;/p&gt;
 &lt;h2&gt;Project Summary&lt;/h2&gt;
-&lt;p&gt;Fortune is a web service in the tradition of the Unix fortune(6) program. It …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;a href="http://fortune.a10g.com"&gt;Fortune&lt;/a&gt; is a public web service serving fortunes via simple REST API.  &lt;/p&gt;
-&lt;p&gt;The public web service is available at http://fortune.a10g.com.&lt;br&gt;
-Source code is available at https://github.com/a10g/qsrv.&lt;/p&gt;
+&lt;p&gt;Fortune is a web service in the tradition of the Unix fortune …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;a href="http://fortune.a10g.com"&gt;Fortune&lt;/a&gt; is a public web service serving fortunes via simple REST API.  &lt;/p&gt;
+&lt;p&gt;The web service is available at &lt;a href="http://fortune.a10g.com"&gt;http://fortune.a10g.com&lt;/a&gt;.&lt;br&gt;
+Source code for the server component is available at &lt;a href="https://github.com/a10g/qsrv"&gt;https://github.com/a10g/qsrv&lt;/a&gt;.&lt;/p&gt;
 &lt;h2&gt;Project Summary&lt;/h2&gt;
 &lt;p&gt;Fortune is a web service in the tradition of the Unix fortune(6) program. It serves random fortunes assembled from traditional Unix/Linux fortune files and new collections assembled by the project. Fortune aims to be the definitive source for quotes, fortunes, one-liners, and tips-n-tricks on-demand.&lt;/p&gt;
 &lt;h2&gt;Project Details&lt;/h2&gt;
